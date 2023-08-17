@@ -1,0 +1,16 @@
+<gradleEnterprise>
+    <server>
+        <url>https://ge.solutions-team.gradle.com</url>
+    </server>
+    <buildScan>
+        <publish>ALWAYS</publish>
+        <capture>
+            <goalInputFiles>true</goalInputFiles>
+        </capture>
+        <backgroundBuildScanUpload>#{env['CI'] == null}</backgroundBuildScanUpload>
+    </buildScan>
+    <buildCache>
+        <local><enabled>true</enabled></local>
+        <remote><enabled>false</enabled></remote>
+    </buildCache>
+</gradleEnterprise>

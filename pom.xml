@@ -569,6 +569,18 @@
 									</outputs>
 								</plugin>
 							</plugins>
+							<normalization>
+								<runtimeClassPath>
+									<propertiesNormalizations>
+										<propertiesNormalization>
+											<path>config/cassandra-connection.properties</path>
+											<ignoredProperties>
+												<ignore>build.cassandra.native_transport_port</ignore>
+											</ignoredProperties>
+										</propertiesNormalization>
+									</propertiesNormalizations>
+								</runtimeClassPath>
+							</normalization>
 						</gradleEnterprise>
 					</configuration>
 				</plugin>

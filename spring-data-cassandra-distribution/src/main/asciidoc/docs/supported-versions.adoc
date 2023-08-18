@@ -1,0 +1,3 @@
+## Supported Versions
+
+Please see the https://spring.io/projects/spring-data-cassandra[Spring Data Cassandra] project page for supported versions.

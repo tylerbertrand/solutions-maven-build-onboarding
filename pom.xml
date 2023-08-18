@@ -392,6 +392,9 @@
 											</ignoredProperties>
 										</propertiesNormalization>
 									</propertiesNormalizations>
+									<ignoredFiles>
+										<ignoredFile>embedded-cassandra.yaml</ignoredFile>
+									</ignoredFiles>
 								</runtimeClassPath>
 							</normalization>
 						</gradleEnterprise>

@@ -1,0 +1,7 @@
+# Security Policy
+
+include::{docs-dir}/supported-versions.adoc[]
+
+## Reporting a Vulnerability
+
+Please don't raise security vulnerabilities here. Head over to https://pivotal.io/security to learn how to disclose them responsibly.

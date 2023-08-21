@@ -35,7 +35,7 @@
 				<artifactId>asciidoctor-maven-plugin</artifactId>
 				<configuration>
 					<attributes>
-						<docs-dir>${project.basedir}/src/main/asciidoc/docs</docs-dir>
+						<docs-dir>src/main/asciidoc/docs</docs-dir>
 					</attributes>
 				</configuration>
 				<executions>

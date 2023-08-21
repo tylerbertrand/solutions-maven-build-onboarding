@@ -528,6 +528,11 @@
 											</ignoredProperties>
 										</propertiesNormalization>
 									</propertiesNormalizations>
+									<metaInf>
+										<ignoredAttributes>
+											<ignore>Bnd-LastModified</ignore>
+										</ignoredAttributes>
+									</metaInf>
 									<ignoredFiles>
 										<ignoredFile>embedded-cassandra.yaml</ignoredFile>
 									</ignoredFiles>
